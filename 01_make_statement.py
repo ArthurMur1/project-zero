@@ -11,4 +11,4 @@ def make_statement(statement, decoration):
 
 
 #Main Routine
-make_statement ("Programming is fun,","😁")
+make_statement ( statement= "Programming is fun,", decoration= "😁")
