@@ -7,4 +7,4 @@ print (num_string *3)
 example_text = "hello world"
 text_length = len(example_text)
 
-print (f"'{example_text}' is {text_length} characters long")
+print (f"'{example_text}' is {text_length} characters long")    

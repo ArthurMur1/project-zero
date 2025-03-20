@@ -1,5 +1,5 @@
 #Function
-def make_statement(statement, decoration, lines):
+def make_statement(statement, decoration, lines=1):
     """Creates heading (3 lines), subheadings (2 lines and emphasied text / mini-headings (1 line), Only use emoji for single line statements"""
 
     middle = f"{decoration * 3} {statement} {decoration * 3}"
@@ -21,6 +21,6 @@ def make_statement(statement, decoration, lines):
 
 
 #Main Routine
-make_statement ( statement= "Programming is fun,", decoration= "=",lines= 3)
-make_statement ( statement= "Programming is Still Fun!", decoration= "*",lines= 2)
-make_statement ( statement= "Emoji in action,", decoration= "😎",lines= 1)
+make_statement ( statement= "Programming is fun,", decoration= "=",)
+make_statement ( statement= "Programming is Still Fun!", decoration= "*",)
+make_statement ( statement= "Emoji in action,", decoration= "😎",)
