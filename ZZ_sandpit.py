@@ -17,3 +17,5 @@ for item in fruit_list:
     print ("Fruit name: ", item)
 
     print ("First  letter", item[0])
+
+    print (f"First two letters {item[:1]}")
