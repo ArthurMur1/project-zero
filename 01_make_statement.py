@@ -14,3 +14,4 @@ def make_statement(statement, decoration):
 make_statement ( statement= "Programming is fun,", decoration= "😁")
 #testing
 
+    

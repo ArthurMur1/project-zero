@@ -18,4 +18,4 @@ for item in fruit_list:
 
     print ("First  letter", item[0])
 
-    print (f"First two letters {item[:1]}")
+    print (f"First two letters {item[:3]}")
