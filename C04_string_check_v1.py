@@ -16,7 +16,7 @@ def string_check(question, valid_ans_list):
             elif response == item[0]:
                 return item
             
-        print (f"Please hoose an option from {valid_ans_list}")
+        print (f"Please choose an option from {valid_ans_list}")
 
 
 #main routine here
@@ -24,5 +24,5 @@ levels = ['easy', 'medium', 'hard']
 
 like_coffee = string_check (question="Do you like coffee? ", valid_ans_list=['yes', 'no'])
 print (f"You chose {like_coffee}")
-choose_level = string_check (question= "Choose a level: ")
+choose_level = string_check (question= "Choose a level: ", valid_ans_list=['easy', 'medium', 'hard'])
 print (f"You chose {choose_level}")
