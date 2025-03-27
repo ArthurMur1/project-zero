@@ -20,9 +20,16 @@ def string_check(question, valid_ans_list, num_letters):
 
 
 #main routine here
-levels = ['easy', 'medium', 'hard']
+yes_no_list = ['yes', 'no']
+payment_list = ['cash','credit']
 
-like_coffee = string_check (question="Do you like coffee? ", valid_ans_list=['yes', 'no'])
+like_coffee = string_check (question="Do you like coffee? ", valid_ans_list=['yes', 'no'], num_letters=1 )
+
 print (f"You chose {like_coffee}")
-choose_level = string_check (question= "Choose a level: ", valid_ans_list=['easy', 'medium', 'hard'])
-print (f"You chose {choose_level}")
+pay_method = string_check (question= "Payment Method: ", valid_ans_list=['card', 'cash'],num_letters=2)
+print (f"You chose {pay_method}")
+
+
+
+
+    
