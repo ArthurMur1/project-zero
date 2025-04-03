@@ -1,40 +1,34 @@
 def int_check(question):
-    """Checks if the users enter an integer that is more than 0"""
+    """Checks if the users enter an integer"""
 
-    error = "Oops - please enter a integer more than 0"
+    error = "Oops - please enter a integer"
     
     while True:
-        response = input(question).lower()
-        
+
         try:
-            #change the response to an integer and check its more than 0
-            response = int(response)
-        
+            response = int(input(question))
+
             return response
         
         except ValueError:
-            print(error)
+            print (error)
 
-#main routine
-
-#loop for testing
 while True:
     print ()
 
-    #ask user for their name
-    name = input ("Name: ")
-    # ask their age and check its between 12 and 120
-    age = int_check("Age: ")
+    # ask user for their name
+    name = input ("Name: ") # replace with call to 'not blank' function
+    # asj for their age and check its between 12 and 120
+    age = int_check ("Age: ")
 
-    #output error message / success message
+    # output error message / success message
     if age < 12:
-        print(f"{name} is too young")
+        print (f"{name} is too young")
+        continue
     elif age > 120:
-        print(f"{name} is to0 old")
-        con
+        print (f"name{name} is too old")
+        continue
     else:
-        print(f"{name} bought a ticket")
-        
-:
+        print (f"{name} bought a ticket")
 
     
