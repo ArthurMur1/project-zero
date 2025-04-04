@@ -26,7 +26,7 @@ while True:
         print (f"{name} is too young")
         continue
     elif age > 120:
-        print (f"name{name} is too old")
+        print (f"{name} is too old") 
         continue
     else:
         print (f"{name} bought a ticket")
