@@ -1,25 +1,20 @@
+def string_check (question, valid_answers=('yes', 'no'),
+    num_letters=1):
 
-def make_statement(statement, decoration):
+def not_blank(question):
 
+def int_check(question):
 
-
-
-
-
-def string_check(question, valid_answers=('yes','no'),
-                num_letters=1):
-        
-
-def instructions():
-make_statement(statement="Instrutions",decoration="ℹ️")
-
-print ('''''')
-        
 #main routine
 
 #initialise ticket numbers
 MAX_TICKETS = 5
 tickets_sold = 0
+
+#initialise variables
+payment_ans = ('cash', 'credit')
+
+
 
 make_statement(statement= "Mini-Movie Fundraiser Program", decoration="🍿" )
 
