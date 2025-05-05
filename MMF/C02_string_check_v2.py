@@ -1,5 +1,5 @@
 def int_check(question):
-    def not_blank(question):
+
 
 
 
