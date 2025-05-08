@@ -1,7 +1,7 @@
 import pandas
 
 #lists to hold tiecket details
-all_names = ['Carl','Ball','ABD','Wheezer','E']
+all_names = ['Carl','Patton','Fortnite','HaydenRoberDruett','TomasCraig']
 all_ticket_costs = [7.50, 7.50, 10.50, 10.50, 6.50]
 all_surcharges = [0, 0, 0.53, 0.53, 0]
 
